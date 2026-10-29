@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <title>Explorador astronómico</title>
 </head>
 
@@ -14,8 +14,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark cosmic-navbar">
             <div class="container">
                 <a class="navbar-brand cosmic-brand" href="#">
-                    <span class="brand-icon">✦</span>
-                    COSMOS <span class="brand-divider">/</span> APOD
+                    APOD
                 </a>
                 <a class="nav-link cosmic-nav-link" href="#favoritos">
                     Mis favoritos
@@ -24,9 +23,6 @@
         </nav>
     </header>
     <main class="container py-4 py-lg-5">
-        <section class="hero-section mb-4 mb-lg-5">
-            <p class="eyebrow">Imagen astronómica del día</p>
-        </section>
         <section class="search-panel mb-4" aria-labelledby="search-title">
             <div class="row align-items-end g-3">
                 <div class="col-12 col-md">
@@ -63,10 +59,6 @@
             aria-live="polite"
         ></div>
         <section id="seccionApod" aria-labelledby="tituloApod">
-            <div class="section-heading mb-3">
-                <span class="section-indicator"></span>
-                <h2 class="h5 mb-0">Descubrimiento astronómico</h2>
-            </div>
             <article class="apod-card">
                 <div class="apod-image-container">
                     <img
@@ -119,14 +111,10 @@
             aria-labelledby="tituloFavoritos"
         >
             <div class="section-heading mb-3">
-                <span class="section-indicator"></span>
-                <h2 id="tituloFavoritos" class="h5 mb-0">
-                    Mi colección cósmica
+                <h2 id="tituloFavoritos" class="h5 mb-3">
+                    Mi favoritos
                 </h2>
             </div>
-            <p class="section-description mb-4">
-                Tus descubrimientos guardados, siempre a tu alcance.
-            </p>
             <div id="listaFavoritos" class="row g-3">
             </div>
             <p id="favoritosVacios" class="empty-favorites">
@@ -134,11 +122,7 @@
             </p>
         </section>
         <footer class="cosmic-footer mt-5 pt-4">
-            <p class="mb-1">COSMOS / APOD</p>
-            <p class="mb-0">
-                Explorando el universo, una imagen a la vez.
-                Contenido astronómico proporcionado por la NASA.
-            </p>
+            <p>Agregar linkedin de los integrantes</p>
         </footer>
     </main>
     <script src="node_modules/dayjs/dayjs.min.js"></script>
