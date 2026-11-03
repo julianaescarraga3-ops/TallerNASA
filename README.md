@@ -1,5 +1,5 @@
 # TallerNASA
 
-Juliana Escarbara
+Juliana Escarraga
 Juan Bohorquez
 Cristian Bernal
