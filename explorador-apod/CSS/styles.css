@@ -31,7 +31,7 @@ body {
     font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
     line-height: 1.7;
 
-    background-image: url("../IMG/fondo-cosmos.jpg");
+    background-image: url("/TallerNASA/explorador-apod/IMG/fondo-cosmos.jpg");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
